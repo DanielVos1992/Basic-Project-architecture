@@ -1,0 +1,20 @@
+site_name: Your Project Name
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+
+nav:
+  - Home: index.md
+  - User Guide: guide.md
+  - API Reference: api.md
+
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
